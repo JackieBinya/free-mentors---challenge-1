@@ -12,3 +12,5 @@ document.querySelector('.close-btn').addEventListener('click', e => {
   document.querySelector('.sidebar-nav-logo').addEventListener('click', e =>{
     sidebarNav.style.display = 'none';
   });
+
+  
