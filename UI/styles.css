@@ -6,6 +6,23 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.container,.container-secondary {
+  max-width: 80%;
+  margin: 0rem auto;
+  /* padding-top: 1em; */
+}
+
+.container-secondary {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+
+@media only screen and (min-width: 1025px) {
+  .container-secondary {
+    max-width: 70%;
+    min-height: 75vh;
+  }
+}
 /***************************************************************************************************************
 *Hero and NavBar styling
 ********************** ***********************************************************************/
@@ -297,6 +314,38 @@ header  {
    margin: 1em 0em;
  }
 
+/************************************************
+* Show mentor styling
+/**********************************************************************************/
+.info .image-container {
+  margin-bottom: 3em;
+}
+
+.info img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.info-inner {
+  margin-bottom: 1em;
+}
+
+.back a {
+  text-decoration: none;
+  color: black;
+}
+
+.back a:hover {
+  color: blue;
+}
+
+@media only screen and (min-width: 1025px) {
+  .info .image-container {
+    margin-bottom: 6em;
+  }
+}
+  
 /************************************************
 * Footer styling
 /**********************************************************************************/
