@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container,.container-secondary {
+.container,.container-secondary{
   max-width: 90%;
   margin: 0rem auto;
 }
@@ -330,7 +330,7 @@ header  {
   margin-bottom: 1em;
 }
 
-.back a {
+.back a, .request-btn a {
   text-decoration: none;
   color: black;
 }
@@ -433,6 +433,49 @@ ul li {
     min-width: 80%;;
   }
 }
+
+/************************************************
+* Session  request styling
+/**********************************************************************************/
+/* .sessionForm {
+  margin-top: 3em;
+} */
+.session-title {
+  margin-bottom: 1em;
+}
+
+.sessionForm input {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(151, 149, 149);
+}
+
+.post {
+  display: block;
+  width: 100%;
+}
+
+.sessionForm div {
+  margin: 2em 0;
+}
+
+.post {
+  margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 768px){
+  .sessionForm{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .post {
+    width: 40%;
+  } 
+
+  }
   
 /************************************************
 * Footer styling
