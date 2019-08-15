@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mentor</title>
+    <title>Session Request</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/722dcdb9b8.js"></script>
-    <script src="showMentor.js" async></script>
 </head>
 <body>
     <header>
             <a href="mentors.html" class="logo">Free Mentors</a>
             <a href="#">Log Out</a>
-    </header>    
-    <div class="container container-secondary">
-        <div class="info">
-            <figure class="image-container">
-                <figcaption><h1><span data-firstName-value=""></span> <span data-lastName-value=""></span></h1></figcaption>
-            </figure>
-            <div class="info-inner">
-                <h2>Occupation</h2>
-                <p data-occupation-value=""></p>
+    </header>
+    <div class="container">
+        <h1 class="session-title">Session Request</h1>
+        <form action="" class="sessionForm">
+            <h2>Please fill in the form below:</h2>
+            <div>
+                <input type="text" name="title" placeholder="Type a descriptive title of your session request" maxlength="50" required>
             </div>
-            <div class="info-inner">
-                <h2>Bio</h2>
-                <p data-bio-value=""></p>
+            <h3>Type your questions in the fields below:</h3>
+            <div>
+                <span>1.</span><input type="text" name="question1"  required>
             </div>
-            <div class="info-inner">
-                <h2>Expertise</h2>
-                <p data-expertise-value=""></p>
-            </div>      
-        </div>
-        <button class="btn request-btn"><a href="requestSession.html">Request a session</a></button>
+            <div>
+                <span>2.</span>
+                <input type="text" name="question2">
+            </div>
+            <div>
+                <span>3.</span>
+                <input type="text" name="question3">
+            </div>
+            <div class="btn-container">
+                <button class="btn post">Post</button>
+            </div>
+        </form>
     </div>
     <footer>
         <a href="mentors.html" class="logo">Free Mentors</a>
