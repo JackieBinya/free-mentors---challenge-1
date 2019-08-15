@@ -454,17 +454,17 @@ ul li {
   width: 100%;
 }
 
-.sessionForm div, .signUpForm div  {
+.sessionForm div, .signUpForm div, .signInForm div  {
   margin: 1em 0;
 }
 
-.sessionForm input, .signUpForm div input, .signUpForm div textarea {
+.sessionForm input, .signUpForm div input, .signUpForm div textarea, .signInForm input {
   width: 100%;
   padding: 0.5em;
   font-size: 0.8rem;
 }
 
-.signUpForm div input, .signUpForm div textarea {
+.signUpForm div input, .signUpForm div textarea, .signInForm div input {
   border: 1px solid rgb(151, 149, 149);
   border-radius: 5px;  
   color: rgb(122, 119, 119);
@@ -481,7 +481,7 @@ ul li {
 }
 
 @media only screen and (min-width: 768px){
-  .sessionForm, .signUpForm{
+  .sessionForm, .signUpForm, .signInForm{
     width: 40%;
     margin: 0 auto;
   }
