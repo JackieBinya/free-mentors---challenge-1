@@ -7,9 +7,8 @@
 }
 
 .container,.container-secondary {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0rem auto;
-  /* padding-top: 1em; */
 }
 
 .container-secondary {
@@ -343,6 +342,95 @@ header  {
 @media only screen and (min-width: 1025px) {
   .info .image-container {
     margin-bottom: 6em;
+  }
+}
+
+/************************************************
+* Sessions styling
+/**********************************************************************************/
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+} 
+
+.list-item {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.list-item-headline {
+  border-bottom: 2px solid gainsboro;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.questions {
+  margin-bottom: 1em;
+}
+
+.questions ol li {
+  list-style: decimal;
+}
+
+.display-btn, .hide-btn {
+  text-align: right;
+}
+
+.clipper {
+  display: none;
+}
+
+.date {
+  color:gray;
+  font-weight: 500;
+  border-left: 2px solid blue;
+  margin-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+.list-item .prop {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.more, .hide {
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.more:hover, .hide:hover {
+  outline: none;
+  background-color: transparent;
+}
+
+.btn {
+  border: 1px solid blue;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 3.4em;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.btn:hover {
+  background-color: lightskyblue;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    min-width: 80%;;
   }
 }
   
