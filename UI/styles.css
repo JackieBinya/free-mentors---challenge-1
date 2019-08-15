@@ -9,11 +9,12 @@
 .container,.container-secondary{
   max-width: 90%;
   margin: 0rem auto;
+  font-size: 0.9rem;
 }
 
 .container-secondary {
   background-color: whitesmoke;
-  padding: 2em;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -120,6 +121,7 @@ header  {
  .wrapper {
    display:grid;
    grid-template-columns: auto;
+   font-size: 0.9rem;
  }
 
  .about {
@@ -160,6 +162,8 @@ header  {
   margin-bottom: 1em;
   text-decoration: none;
   text-transform: uppercase;
+  outline: none;
+  border: none;
  }
  
  .btn-start:hover {
@@ -190,10 +194,10 @@ header  {
  }
 
  @media only screen and (min-width: 1025px){
-   html {
+  /*  html {
      font-size: 1.2rem;
      line-height: 1.5rem;
-   }
+   } */
 
    .inner {
       width: auto;
@@ -238,7 +242,7 @@ header  {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 2em;
 }
 
@@ -294,6 +298,7 @@ header  {
   margin: 2em;
   transition: transform 1s;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .card:hover {
@@ -444,37 +449,53 @@ ul li {
   margin-bottom: 1em;
 }
 
-.sessionForm input {
-  width: 100%;
-  padding: 0.5em;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid rgb(151, 149, 149);
-}
-
 .post {
   display: block;
   width: 100%;
 }
 
-.sessionForm div {
-  margin: 2em 0;
+.sessionForm div, .signUpForm div  {
+  margin: 1em 0;
 }
+
+.sessionForm input, .signUpForm div input, .signUpForm div textarea {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 0.8rem;
+}
+
+.signUpForm div input, .signUpForm div textarea {
+  border: 1px solid rgb(151, 149, 149);
+  border-radius: 5px;  
+  color: rgb(122, 119, 119);
+}
+
+.sessionForm input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(151, 149, 149);
+} 
 
 .post {
   margin-bottom: 3em;
 }
 
 @media only screen and (min-width: 768px){
-  .sessionForm{
-    width: 60%;
+  .sessionForm, .signUpForm{
+    width: 40%;
     margin: 0 auto;
   }
 
   .post {
     width: 40%;
   } 
+  }
 
+  @media only screen and (min-width: 1025px) {
+    .sessionForm, .signUpForm{
+      width: 30%;
+      margin: 0 auto;
+    }
   }
   
 /************************************************
