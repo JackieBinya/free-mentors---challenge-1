@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="signUp.js" async></script>
 </head>
 <body>
     <header>
@@ -15,36 +16,36 @@
         <h2>Sign Up</h2>
         <form action="" class="signUpForm">
             <div>
-                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="First name">
             </div>
             <div>
-                <input type="text" placeholder="Last name" required>
+                <input type="text" placeholder="Last name">
             </div>
 
             <div>
-                <input type="email" placeholder="Email" required>
+                <input type="email" placeholder="Email">
             </div>
 
             <div>
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password">
             </div>
 
             <div>
-                <input type="password" placeholder="Confirm password" required>
+                <input type="password" placeholder="Confirm password">
             </div>
 
             <div>
-                    <input type="text" placeholder="Occupation" required>
+                    <input type="text" placeholder="Occupation">
             </div>
 
             <div>
-                <textarea name="desc"  maxlength="200"  rows="6" placeholder="Type a detailed bio between 30 and 200characters" id="prop-desc"  required ></textarea>
+                <textarea name="bio"  maxlength="200"  rows="6" placeholder="Type a detailed bio between 30 and 200characters" ></textarea>
             </div>
 
             <div>
-                <textarea name="desc"  maxlength="200"  rows="6" placeholder="Type a detailed description of your area of expertise between 30 and 50characters" id="prop-desc"  required ></textarea>
+                <textarea name="expertise"  maxlength="200"  rows="6" placeholder="Type a detailed description of your area of expertise between 30 and 50characters"></textarea>
             </div>
-            <button class="btn-start">Post</button>
+            <button type="button" class="btn-start signUp-btn">Post</button>
             <span class="ad-headliner">Already using Free Mentors?</span>    
             <a class="ad-extenalLink" href="signIn.html">Sign in.</a>
         </form>
