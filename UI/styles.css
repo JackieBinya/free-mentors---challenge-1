@@ -322,7 +322,7 @@ header  {
 * Show mentor styling
 /**********************************************************************************/
 .info .image-container {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .info img {
@@ -346,7 +346,7 @@ header  {
 
 @media only screen and (min-width: 1025px) {
   .info .image-container {
-    margin-bottom: 6em;
+    margin-bottom: 1em;
   }
 }
 
@@ -440,44 +440,26 @@ ul li {
 }
 
 /************************************************
-* Session  request styling
+* Session  request styling and Form Styling
 /**********************************************************************************/
-/* .sessionForm {
-  margin-top: 3em;
-} */
 .session-title {
   margin-bottom: 1em;
-}
-
-.post {
-  display: block;
-  width: 100%;
 }
 
 .sessionForm div, .signUpForm div, .signInForm div  {
   margin: 1em 0;
 }
 
-.sessionForm input, .signUpForm div input, .signUpForm div textarea, .signInForm input {
+.sessionForm input, .signUpForm div input, .sessionForm div textarea, .signUpForm div textarea, .signInForm input {
   width: 100%;
   padding: 0.5em;
   font-size: 0.8rem;
-}
-
-.signUpForm div input, .signUpForm div textarea, .signInForm div input {
   border: 1px solid rgb(151, 149, 149);
   border-radius: 5px;  
-  color: rgb(122, 119, 119);
 }
 
-.sessionForm input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid rgb(151, 149, 149);
-} 
-
-.post {
-  margin-bottom: 3em;
+.sessionForm button {
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px){
@@ -485,15 +467,11 @@ ul li {
     width: 40%;
     margin: 0 auto;
   }
-
-  .post {
-    width: 40%;
-  } 
-  }
+}
 
   @media only screen and (min-width: 1025px) {
     .sessionForm, .signUpForm{
-      width: 30%;
+      width: 40%;
       margin: 0 auto;
     }
   }
