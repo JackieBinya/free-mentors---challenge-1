@@ -497,6 +497,23 @@ ul li {
       margin: 0 auto;
     }
   }
+
+    
+/************************************************
+* Become a mentor styling
+/**********************************************************************************/
+.become-mentor p {
+  margin-bottom: 1em;
+}
+
+.mentorForm {
+  margin-top: 1em;
+}
+
+.become-mentor button {
+  display: block;
+  margin-top: 1em;
+}
   
 /************************************************
 * Footer styling
